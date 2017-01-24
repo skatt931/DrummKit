@@ -1,2 +1,39 @@
 body {
-  background-color: green; }
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "RobotoRegular", sans-serif;
+  overflow-x: hidden;
+  background-image: url(../img/crowd.jpg); }
+
+.keys {
+  display: flex;
+  margin-top: 300px;
+  margin-left: 150px; }
+  .keys .key {
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    color: white;
+    transition: all 0.07s;
+    background: rgba(114, 114, 114, 0.49);
+    text-align: center; }
+    .keys .key kbd {
+      font-size: 25px; }
+    .keys .key .sound {
+      display: block;
+      font-size: 10px;
+      color: #e8ca4c;
+      font-weight: bold; }
+
+.hidden {
+  display: none; }
+
+body .keys .plaing {
+  border-color: #ffe218;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ffe218; }
